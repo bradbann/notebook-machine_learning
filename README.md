@@ -3,7 +3,7 @@
 ## Introduction
 
 This project is the source code repository for [Machine Learning Notebook](https://notebook-machine-learning.readthedocs.io).  
-It is aimed at providing useful and understandable resources of machine learning.  
+It is aimed at providing useful and understandable resources of machine learning.  
 Its resource will keep as concise as possible.  
 It will contain online courses resources,notes,books,blogs,projects etc.  
 Hope anyone who wants to step into machine learning will benefit from it.

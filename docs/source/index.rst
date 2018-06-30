@@ -15,7 +15,7 @@ Tom M. Mitchell provided a formal definition of the algorithms studied in the `M
 I think the key of machine learning is to discover appropriate computable models through data training to solve specific tasks.
 
 .. note::
-   In general,this notebook is divided into 5 sections.If you are a beginner, It is highly recommended to read the first four section in order.
+   In general,this notebook is divided into 5 sections.If you are a beginner, It is highly recommended to read the first four sections in order.
     
    The four sections are divided based on its difficulty as you can see below: 
       Phase1: Math Basis; Phase2: Get Started; Phase3: Step Forward; Phase4: Get Advanced;
