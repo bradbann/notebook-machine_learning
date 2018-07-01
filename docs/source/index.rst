@@ -46,9 +46,9 @@ Machine Learning Notebook
    open_resources/* 
 
 .. warning::
-    This notebook is under early development stage, it seems unavoidable to contain mistakes.
-    If you find mistakes,it will be grateful to commit an `issue <https://github.com/lamdeyton/notebook-machine_learning/issues>`_ to me
-    or contribute to correct them through `pull request <https://github.com/lamdeyton/notebook-machine_learning/pulls>`_.
+   This notebook is under early development stage, it seems unavoidable to contain mistakes.
+   If you find mistakes,it will be grateful to commit an `issue <https://github.com/lamdeyton/notebook-machine_learning/issues>`_ to me
+   or contribute to correct them through `pull request <https://github.com/lamdeyton/notebook-machine_learning/pulls>`_.
 
 Tom M. Mitchell provided a formal definition of the algorithms studied in the `Machine Learning <https://en.wikipedia.org/wiki/Machine_learning>`_:
     "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P if its performance at tasks in T, as measured by P, improves with experience E". 
