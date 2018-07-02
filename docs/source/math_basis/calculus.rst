@@ -20,7 +20,49 @@ Derivative
 | The derivative of a function of a single variable at a chosen input value, when it exists, is the `slope <https://en.wikipedia.org/wiki/Slope>`_ of the `tangent line <https://en.wikipedia.org/wiki/Tangent>`_ to the `graph of the function <https://en.wikipedia.org/wiki/Graph_of_a_function>`_ at that point.
 | The red tangent line is the best `linear approximation <https://en.wikipedia.org/wiki/Linear_approximation>`_ of the function near that input value as you can see below:
 
- .. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tangent_to_a_curve.svg/440px-Tangent_to_a_curve.svg.png
+.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tangent_to_a_curve.svg/440px-Tangent_to_a_curve.svg.png
+
+Intuition
+---------
+
+The simplest case, y is a linear function, y = f(x) = mx + b,for real numbers m and b, and the slope m is given by
+
+.. math::
+
+    m = \frac{change \ in \ y}{change \ in \ x} = \frac{\Delta y}{\Delta x}.  
+
+The symbol :math:`\Delta` is an abbreviation for "change in".It can be proved:
+
+.. math::
+
+    \begin{align}
+    & f(x) = y = mx + b \\\\
+    & \Delta y = f(x + \Delta x) - f(x) = [m (x + \Delta x) + b] - [mx + b] = m \Delta x. \\\\
+    & m = \frac{\Delta y}{\Delta x}.
+    \end{align}
+
+.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Wiki_slope_in_2d.svg/500px-Wiki_slope_in_2d.svg.png
+
+Definition
+----------
+
+| Let f be a real valued function defined in an open neighborhood of a real number a. 
+| The derivative of y with respect to x at a is, geometrically, the slope of the tangent line to the graph of f at (a, f(a)).
+| The slope of the tangent line is very close to the slope of the line through (a, f(a)) and a nearby point on the graph, for example (a + h, f(a + h)). These lines are called `secant lines <https://en.wikipedia.org/wiki/Secant_line>`_
+| The slope m of the secant line is the difference between the y values of these points divided by the difference between the x values, that is,
+
+..  math:: 
+
+    m = \frac{\Delta f(a)}{\Delta a} = \frac{f(a+h) - f(a)}{(a+h) - (a)} = \frac{f(a + h) - f(a)}{h}.
+
+Therefore, the limit of the difference quotient as h approaches zero, if it exists, should represent the slope of the tangent line to (a, f(a)). This limit is defined to be the derivative of the function f at a:
+
+..  math:: 
+
+    & f'(a) = \lim_{h\to0}\frac{f(a + h) - f(a)}{h} = \lim_{\Delta x\to0}\frac{f(a + h) - f(a)}{\Delta x}.\\\\
+    & f'(x) = \lim_{\Delta x\to0}\frac{f(x + \Delta x) - f(x)}{\Delta x}.
+
+.. image:: https://upload.wikimedia.org/wikipedia/commons/c/cc/Tangent_animation.gif    
 
 .. rubric:: Reference:
 
