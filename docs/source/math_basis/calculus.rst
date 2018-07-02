@@ -136,7 +136,7 @@ Rules for Combined Function
 
 .. math::
    & f(x) = \frac{g(x)}{h(x)}.\\
-   & f'(x) = \frac{g'(x) h(x) - h'(x) g(x)}{h^2(x)}. \\
+   & f'(x) = \frac{g'(x) \cdot h(x) - h'(x) \cdot g(x)}{h^2(x)}. \\
 
 Partial Derivatives
 -------------------
@@ -146,7 +146,7 @@ In general, the partial derivative of a function :math:`f(x_1, …, x_n)` in the
 .. math::
    & \frac{\delta \ f}{\delta x_i} (a_1,...a_n) = \lim_{h\to0} \frac{f(a_1,...,a_i + h,...,a_n) - f(a_1,...,a_i,...,a_n)}{h}. \\\\
    & f_{a_1, \ ... \ ,a_{i-1} \ , \ a_{i+1} \ , \ ... \ ,a_n}(x_i) = f(a_1, \ ... \ ,a_{i-1} \ , \ x_i \ , \ a_{i+1}, \ ... \ a_n). \\\\ 
-   & \frac{d \ f_{a_1, \ ... \ , \ a_{i-1} \ , \ a_{i+1} \ , \ ... \ ,a_n}}{dx_i}(x_i) = \frac{\delta \ f}{\delta x_i} (a_1,...a_n). \\\\
+   & \frac{d \ f_{a_1, \ ... \ , \ a_{i-1} \ , \ a_{i+1} \ , \ ... \ ,a_n}}{dx_i}(a_i) = \frac{\delta \ f}{\delta x_i} (a_1,...a_n). \\\\
    & \Delta \ f(a_1,...a_n) = (\frac{\delta \ f}{\delta x_1} (a_1,...a_n) \ , \ ... \ , \ \frac{\delta \ f}{\delta x_n} (a_1,...a_n)). 
 
 .. rubric:: Reference:
