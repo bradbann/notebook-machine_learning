@@ -158,7 +158,7 @@ Diagonal & Identity Matrix
 
 | The main diagonal of a square matrix are the elements with same index in rows and columns,can be denoted by :math:`a_{ii}`.
 
-| the diagonal matrix :math:`D_n` of size n is a square matrix that all entries outside the main diagonal are zero.
+| The diagonal matrix :math:`D_n` of size n is a square matrix that all entries outside the main diagonal are zero.
 | For example with n = 3
 
 .. math::
