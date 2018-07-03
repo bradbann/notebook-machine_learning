@@ -4,11 +4,9 @@
 Machine Learning Notebook
 =========================
 .. note::
-   | In general,this notebook is divided into 5 sections.If you are a beginner, It is highly recommended to read the first four sections in order.The four sections are divided based on its difficulty as you can see below: 
-   
+   | In general,this notebook is divided into 5 sections.The first four sections are divided based on its difficulty as you can see below: 
    | Phase1: Math Basis; Phase2: Get Started; Phase3: Step Forward; Phase4: Get Advanced;
-
-   "Open Resources" section contains awesome open collections on the Internet.
+   | "Open Resources" section contains awesome open collections on the Internet.
 
 .. toctree::
    :maxdepth: 1
