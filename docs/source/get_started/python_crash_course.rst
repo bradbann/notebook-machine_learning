@@ -31,11 +31,17 @@ Matplotlib is a plotting library. In this section give a brief introduction to t
 Plotting
 --------
 
-.. literalinclude:: ../../../src/practice/plot_examples.py
+A simple example code for to plot a figure can be seen as below:
+
+.. literalinclude:: ../../../src/plot_examples.py
    :linenos:
+
+More plot examples can be seen `here <http://nbviewer.jupyter.org/github/lamdeyton/notebook-machine_learning/blob/master/notebook/plot_examples.ipynb>`_
 
 .. rubric:: Reference:
 
 #. https://en.wikipedia.org/wiki/Python_(programming_language)
 #. http://cs231n.github.io/python-numpy-tutorial/#numpy
 #. https://www.python.org/doc/
+#. https://matplotlib.org/tutorials/index.html
+#. https://realpython.com/python-matplotlib-guide/

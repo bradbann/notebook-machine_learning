@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
 
 dataset = pd.read_csv('../dataset/fake_house_price_data.csv')
 x = dataset.iloc[:,:-1].values
@@ -17,4 +18,4 @@ plt.xlabel("Size in feet^2")
 lx = np.arange(800,2200)
 ly = 0.22 * lx - 25;
 plt.plot(lx,ly,c = 'blue')
-plt.show();
+plt.show()
