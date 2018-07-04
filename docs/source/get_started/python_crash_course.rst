@@ -23,6 +23,17 @@ Python Basis
 Numpy Tutorial
 ==============
 
+Matplotlib Tutorial
+===================
+
+Matplotlib is a plotting library. In this section give a brief introduction to the matplotlib.pyplot module, which provides a plotting system similar to that of MATLAB.
+
+Plotting
+--------
+
+.. literalinclude:: ../../../src/practice/plot_examples.py
+   :linenos:
+
 .. rubric:: Reference:
 
 #. https://en.wikipedia.org/wiki/Python_(programming_language)

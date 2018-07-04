@@ -19,12 +19,7 @@ Simple Linear Regression
 | Let's start with a simple example, provide a dataset below:
 
 .. csv-table:: House Price
-   :header: Size (x),Price(y)
-
-   2104,460
-   1416,232
-   1534,315
-   852,178
+   :file: ../../../dataset/fake_house_price_data.csv
 
 .. _multiple_linear_regression:
 
