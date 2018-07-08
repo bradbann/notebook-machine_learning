@@ -11,8 +11,8 @@ Machine Learning
 
 Awesome open online courses for Machine Learning.
 
-Basis
------
+Get Started
+-----------
 
 - `Machine Learning @Coursera <https://www.coursera.org/learn/machine-learning>`_
    

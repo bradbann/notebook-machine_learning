@@ -28,34 +28,34 @@ Simple Linear Regression
 
 .. image:: ../../resource/images/fake_house_price_predict_figure.png
 
-Finally, we can use the line (appropriate hypothesis function ) to make predictions.
+Finally, we can get the trained predict model (appropriate hypothesis function ) to make predictions.
 
 Now Let's move forward the detail how to solve linear regression problems.
 
 Hypothesis Function
 *******************
 
-In simple linear regression model, we use parameters :math:`\theta_0,\theta_1`, the hypothesis function is:
+In simple linear regression model, we use parameters :math:`w,b`, the hypothesis function  :math:`\hat{y}` is:
 
 .. math::
-   h_{\theta}(x) = \theta_0 + \theta_1 x.
+   \hat{y} = wx + b
 
 
 Cost Function
 *************
 
 | Cost function is the function that describes predict errors between the real output values and predict values.
-| The commonly used cost function :math:`J_{(\theta_0,\theta_1)}` for simple linear regression is :
+| The commonly used cost function :math:`J_{(w,b)}` for simple linear regression is :
 
 .. math::
-   J_{(\theta_0,\theta_1)} & = \frac{1}{2m} \ \sum_{i=1}^{m} \ (h_{ \theta}(x^{(i)}) \ - \ y^{(i)} )^2 \\ 
-   J_{(\theta_0,\theta_1)} & = \frac{1}{2m} \ \sum_{i=1}^{m} \ (\theta_0 + \theta_1 x^{(i)}) \ - \ y^{(i)} )^2
+   J_{(w,b)} & = \frac{1}{2m} \ \sum_{i=1}^{m} \ (\hat{y} \ - \ y^{(i)} )^2 \\ 
+   J_{(w,b)} & = \frac{1}{2m} \ \sum_{i=1}^{m} \ (wx + b) \ - \ y^{(i)} )^2
 
 m is the size of the dataset, :math:`x^{(i)},y^{(i)}` is respectively  for input and output values of the i' th sample data in the dataset.
 
 | In regression problems, our goal is to find out the best appropriate hypothesis to predict the output value. We have the hypothesis and  the cost function
  above,our goal will be equivalent to minimize the cost function.
-| Because :math:`J_{(\theta_0,\theta_1)}` is a convex function, its minimum value will be at the point which gradient is zero.
+| Because :math:`J_{(w,b)}` is a convex function, its minimum value will be at the point which gradient is zero.
 | We can use gradient descend algorithm to minimize the cost function. 
 
 Gradient Descend
