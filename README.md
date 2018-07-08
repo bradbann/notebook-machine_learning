@@ -8,7 +8,11 @@ Its resource will keep as concise as possible.
 It will contain online courses resources,notes,books,blogs,projects etc.  
 Hope anyone who wants to step into machine learning will benefit from it.
 
-## Resources
+## Jupyter Notebook Collections
+
+- [My JNotebook of Machine Learning & Python](notebook)
+
+## Additional Resources
 
 - [Quick reStructuredText](http://docutils.sourceforge.net/docs/user/rst/quickref.html)
 - [reST and Sphinx Memo](http://rest-sphinx-memo.readthedocs.org)  
